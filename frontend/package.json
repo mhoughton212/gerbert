@@ -1,0 +1,31 @@
+{
+  "name": "gerbert-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@vitejs/plugin-react": "6.1.1",
+    "eslint": "10.10.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.7",
+    "globals": "17.12.0",
+    "vite": "8.3.0",
+    "vitest": "5.0.1"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint . --max-warnings=0",
+    "test": "vitest run"
+  }
+}
